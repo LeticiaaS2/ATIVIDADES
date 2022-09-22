@@ -1,2 +1,2 @@
 # Atividades
-REPOSITÓRIO DE LETÍCIA PEREIRA
+Repositório de Letícia Pereira
