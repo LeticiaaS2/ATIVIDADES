@@ -3,6 +3,7 @@ Repositório de Letícia Pereira
 
 programa {
 	funcao inicio() {
+	
 		real distancia, combustivel, consumo
 		
 		escreva ("Informe: \nA distância total, em quilometros, percorrida pelo automóvel: ")
@@ -18,6 +19,7 @@ programa {
 
 programa {
 	funcao inicio() {
+	
 		real bMaior, bMenor, h, area
 		
 		escreva ("Informe as seguintes dimensões de um trapézio: \nBase maior: ")
