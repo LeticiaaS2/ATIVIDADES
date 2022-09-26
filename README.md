@@ -3,7 +3,12 @@ Repositório de Letícia Pereira
 
 programa {
 	funcao inicio() {
-	
+	    /*
+	    1. Enoque vai viajar e precisa saber o consumo médio do seu carro. Sabendo que você é um excelente programador, aluno do IFSertãoPE,
+	    ele te contratou para desenvolver um algoritmo usando o PortugolStudio que recebe como entrada a distância total percorrida pelo automóvel
+	    e o total de combustível gasto. Com esses dados, calcule e exiba na tela o consumo do automóvel.
+	    */
+
 		real distancia, combustivel, consumo
 		
 		escreva ("Informe: \nA distância total, em quilometros, percorrida pelo automóvel: ")
@@ -19,7 +24,12 @@ programa {
 
 programa {
 	funcao inicio() {
-	
+	    /*
+	    2. Crie um algoritmo utilizando o PortugolStudio que calcula a área de um trapézio. Para realizar esse cálculo,
+	    você deve solicitar ao usuário os valores referentes à baseMaior, baseMenor e a altura.
+	    Com esses três dados em mãos, utilize a seguinte formula: Calcule a área e imprima o resultado na tela.
+	    */
+
 		real bMaior, bMenor, h, area
 		
 		escreva ("Informe as seguintes dimensões de um trapézio: \nBase maior: ")
@@ -34,3 +44,4 @@ programa {
 		escreva ("\n----------------------------------------------------------")
 	}
 }
+
