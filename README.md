@@ -1,7 +1,6 @@
 # Atividades
 Repositório de Letícia Pereira
 
-QUESTÃO 1-
 programa {
 	funcao inicio() {
 		real distancia, combustivel, consumo
@@ -17,7 +16,6 @@ programa {
 	}
 }
 
-QUESTÃO 2-
 programa {
 	funcao inicio() {
 		real bMaior, bMenor, h, area
