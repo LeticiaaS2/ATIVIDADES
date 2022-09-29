@@ -1,0 +1,22 @@
+programa {
+	funcao inicio() {
+	    /*
+	    2. Crie um algoritmo utilizando o PortugolStudio que calcula a área de um trapézio. Para realizar esse cálculo,
+	    você deve solicitar ao usuário os valores referentes à baseMaior, baseMenor e a altura.
+	    Com esses três dados em mãos, utilize a seguinte formula: Calcule a área e imprima o resultado na tela.
+	    */
+
+		real bMaior, bMenor, h, area
+		
+		escreva ("Informe as seguintes dimensões de um trapézio: \nBase maior: ")
+		leia (bMaior)
+		escreva ("Base menor: ")
+		leia (bMenor)
+		escreva ("Altura: ")
+		leia (h)
+		
+		area = ((bMaior+bMenor)*h)/2
+		escreva ("\nDe acordo com as dimensões inseridas, a área mede "+area)
+		escreva ("\n----------------------------------------------------------")
+	}
+}
