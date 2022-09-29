@@ -1,6 +1,7 @@
 programa {
 	funcao inicio() {
 	    /*
+	    LETÍCIA PEREIRA ALVES DA CRUIZ 1°INFO
 	    1. Enoque vai viajar e precisa saber o consumo médio do seu carro. Sabendo que você é um excelente programador, aluno do IFSertãoPE,
 	    ele te contratou para desenvolver um algoritmo usando o PortugolStudio que recebe como entrada a distância total percorrida pelo automóvel
 	    e o total de combustível gasto. Com esses dados, calcule e exiba na tela o consumo do automóvel.
