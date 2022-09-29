@@ -1,6 +1,7 @@
 programa {
 	funcao inicio() {
 	    /*
+	    LETÍCIA PEREIRA ALVES DA CRUIZ 1°INFO
 	    2. Crie um algoritmo utilizando o PortugolStudio que calcula a área de um trapézio. Para realizar esse cálculo,
 	    você deve solicitar ao usuário os valores referentes à baseMaior, baseMenor e a altura.
 	    Com esses três dados em mãos, utilize a seguinte formula: Calcule a área e imprima o resultado na tela.
