@@ -1,6 +1,7 @@
 programa {
 	funcao inicio() {
 		/*
+		LETÍCIA PEREIRA ALVES DA CRUZ
 		1. crie um algoritmo que leia dois valores e imprima na tela, de acordo com os valores
         informados, uma das seguintes mensagens:
           “Números iguais”, caso os números sejam iguais
