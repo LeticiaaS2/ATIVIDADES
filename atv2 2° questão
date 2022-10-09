@@ -1,0 +1,27 @@
+programa {
+	funcao inicio() {
+		/*
+    LETÍCIA PEREIRA ALVES DA CRUZ
+		2. Rogério está bem endividado e precisa de um empréstimo. Crie um algoritmo que leia o valor do
+        salário de Rogério e quanto ele qual o valor do empréstimo que ele deseja pegar. Caso o valor do
+        empréstimo pretendido seja menor ou igual a 5 vezes o seu salário, imprima na tela "Empréstimo
+        Concedido!"; senão, imprima a mensagem "Empréstimo Negado". Ao final, independente do resultado
+        da concessão ou não do empréstimo, imprima a seguinte mensagem: “ - Rogério, pare de gastar! - ”.
+        */
+        
+        real salario, emprestimo
+        
+        escreva ("Informe o valor do seu salário: ")
+        leia (salario)
+        escreva ("Informe o valor do empréstimo que deseja: ")
+        leia (emprestimo)
+        
+        se (emprestimo <= 5*salario){
+            escreva ("Empréstimo Concedido!")
+        }senao{
+            escreva ("Empréstimo Negado")
+        }
+        escreva ("\n\n- Rogério, pare de gastar! -")
+        
+	}
+}
