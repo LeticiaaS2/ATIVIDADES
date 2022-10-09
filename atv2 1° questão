@@ -1,0 +1,28 @@
+programa {
+	funcao inicio() {
+		/*
+		1. crie um algoritmo que leia dois valores e imprima na tela, de acordo com os valores
+        informados, uma das seguintes mensagens:
+          “Números iguais”, caso os números sejam iguais
+          “Primeiro é maior”, caso o primeiro seja maior que o segundo;
+          “Segundo maior”, caso o segundo seja maior que o primeiro.
+         */
+         
+         inteiro n1, n2
+         
+         escreva ("Informe o primeiro valor: ")
+         leia (n1)
+         escreva ("Informe o segundo valor: ")
+         leia (n2)
+         
+         se (n1==n2){
+             escreva ("Números iguais")
+         }senao se (n1>n2){
+             escreva ("Primeiro é maior")
+         }senao {
+             escreva ("Segundo maior")
+         }
+         escreva ("\n-------------------------------------")
+
+	}
+}
