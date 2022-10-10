@@ -1,0 +1,56 @@
+
+		programa {
+	funcao inicio() {
+		/*
+    LETÍCIA PEREIRA ALVES DA CRUZ
+		5. Uma empresa formada por técnicos altamente qualificados formados pelo IFSertãoPE campus
+        Salgueiro precisa fazer um reajuste de salário dos seus funcionários. Dessa forma, você foi contratado
+        para criar um algoritmo que recebe o salário atual do funcionário e calcula e mostra na tela seu novo
+        salário de acordo com a tabela abaixo:
+
+        Salário Atual      Índice de Aumento
+        R$ 0 a R$ 400            15%
+        R$ 401 a R$ 700          12%
+        R$ 701 a R$ 1000         10%
+        R$ 1001 a R$ 1800         7%
+        R$ 1801 a R$ 2500         4%
+        Acima de R$ 2500      Sem Aumento
+        */
+        
+        real sbase,snovo,reajuste
+        
+        escreva ("Informe o salário atual: ")
+        leia (sbase)
+        
+        se ((sbase>=0)e(sbase<=400)){
+            reajuste= sbase*15/100
+            snovo= sbase+reajuste
+            escreva("Seu novo salário é R$"+snovo)
+            
+        }senao se((sbase>=401)e(sbase<=700)){
+            reajuste= sbase*12/100
+            snovo= sbase+reajuste
+            escreva("Seu novo salário é R$"+snovo)
+            
+        }senao se((sbase>=701)e(sbase<=1000)){
+            reajuste= sbase*10/100
+            snovo= sbase+reajuste
+            escreva("Seu novo salário é R$"+snovo)
+            
+        }senao se((sbase>=1001)e(sbase<=1800)){
+            reajuste= sbase*7/100
+            snovo= sbase+reajuste
+            escreva("Seu novo salário é R$"+snovo)
+            
+        }senao se((sbase>=1801)e(sbase<=2500)){
+            reajuste= sbase*4/100
+            snovo= sbase+reajuste
+            escreva("Seu novo salário é R$"+snovo)
+            
+        }senao{
+            escreva("Não houve aumento no seu salário")
+	}
+}
+}
+
+
