@@ -1,0 +1,30 @@
+programa {
+	funcao inicio() {
+		/*
+    LETÍCIA PEREIRA ALVES DA CRUZ
+		4. Crie um algoritmo que solicite ao usuário três números inteiros. Suponha que os três números
+        informados sempre serão diferentes. Imprima na tela o resultado da soma dos dois maiores
+        números.
+        */
+        
+        inteiro n1,n2,n3,soma
+        
+        escreva ("Informe um número: ")
+        leia (n1)
+        escreva ("Informe um número diferente do dito anteriormente: ")
+        leia (n2)
+        escreva ("Informe outro número diferente dos já informados: ")
+        leia (n3)
+        
+        se ((n2>n1)e(n3>n1)){
+            soma=n2+n3
+            escreva(soma)
+        }senao se ((n1>n2)e(n3>n2)){
+            soma=n1+n3
+            escreva(soma)
+        }senao{
+            soma=n1+n2
+            escreva(soma)
+        }
+}
+}
