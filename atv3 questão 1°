@@ -1,0 +1,26 @@
+programa
+{
+	
+	funcao inicio()
+	{
+  LETICIA PEREIRA E MARIANA FERNANDES
+		real n1,n2,soma,quadrado
+
+		escreva("Informe o número 1: ")
+		leia(n1)
+		escreva("Informe o número 2: ")
+		leia(n2)
+
+		soma = n1+n2
+		se(soma>10){
+			quadrado=soma*soma
+			
+		se(quadrado>30){
+			escreva("É maior que 30!")
+			
+		}
+		}senao{
+			escreva("A soma é menor do que 10!")
+	}
+}
+}
