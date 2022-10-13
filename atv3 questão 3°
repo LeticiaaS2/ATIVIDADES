@@ -1,0 +1,39 @@
+programa
+{
+	
+	funcao inicio()
+	{
+  LETICIA PEREIRA E MARIANA FERNANDES
+		logico animal
+
+          escreva("Responda com verdadeiro ou falso")
+		escreva("\nO animal possui um fucinho? ")
+		leia(animal)
+		
+		se(animal==verdadeiro){
+			escreva("O animal é um cachorro ")
+
+		}senao se(animal==falso){
+			escreva("O animal possui bigode? ")
+			se(animal==verdadeiro){
+				escreva("O animal é um gato")}
+				
+			 senao se(animal==falso){
+				escreva("O animal possui chifres? ")}
+				se(animal==verdadeiro){
+					escreva("O animal é um boi")}
+					
+				 senao se(animal==falso){
+					escreva("O animal possui asas? ")}
+					se(animal==verdadeiro){
+						escreva("O animal é uma borboleta")}
+						
+					}senao{
+						escreva("O animal possui barbatana? ")
+						se(animal==verdadeiro){
+							escreva("O animal é uma baleia")
+						}
+					}
+	}
+}
+				
