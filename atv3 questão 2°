@@ -1,0 +1,24 @@
+programa
+{
+	
+	funcao inicio()
+	{
+  LETICIA PEREIRA E MARIANA FERNANDES
+		real nivel
+		cadeia nome, rua
+
+		escreva("Informe o número,de 0 a 10, do alerta: ")
+		leia(nivel)
+
+		se(nivel>9){
+			escreva("Informe seu nome: ")
+			leia(nome)
+			escreva("Informe a rua em que mora: ")
+			leia(rua)
+
+			escreva(nome+",você deve sair da sua residência agora mesmo! A rua"+rua+" está interditada.")
+		}senao{
+			escreva("O nível de alerta não é grave.")
+		}
+	}
+}
