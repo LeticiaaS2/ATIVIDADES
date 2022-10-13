@@ -1,0 +1,22 @@
+programa
+{
+	
+	funcao inicio()
+	{
+  LETICIA PEREIRA E MARIANA FERNANDES
+		real x,y,z
+
+		escreva("Informe o primeiro valor: ")
+		leia(x)
+		escreva("Informe o segundo valor: ")
+		leia(y)
+		escreva("Informe o terceiro valor: ")
+		leia(z)
+
+		se((x<y+z)e(y<x+z)e(z<y+x)){
+			escreva("Os valores formam um triângulo")
+		}senao{
+			escreva("Os valores não formam um triângulo")
+		}
+	}
+}
