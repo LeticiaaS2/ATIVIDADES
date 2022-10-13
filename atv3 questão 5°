@@ -1,0 +1,41 @@
+programa
+{
+	
+	funcao inicio()
+	{
+  LETICIA PEREIRA E MARIANA FERNANDES
+		inteiro h1,h2,m1,m2,mv,hn,soma,produto
+
+		escreva("Informe a idade do primeiro homem: ")
+		leia(h1)
+		escreva("Informe a idade do segundo homem: ")
+		leia(h2)
+		escreva("Informe a idade da primeira mulher: ")
+		leia(m1)
+		escreva("Informe a idade da segunda mulher: ")
+		leia(m2)
+
+		se(m1>m2){
+			mv=m1
+		}senao{
+			mv=m2
+		}
+		se(h1<h2){
+			hn=h1
+		}senao{
+			hn=h2
+		}
+		soma = mv+hn
+		produto = m1*m2
+		escreva("A soma da idade da mulher mais velha com a idade do homem mais novo é "+soma)
+		escreva("\no produto das idades das duas mulheres é "+produto)
+
+		se((m1>50)ou(m2>50)ou(h1>50)ou(h2>50)){
+			escreva("\nVocê é idoso(a)!")
+			
+		}senao{
+			escreva("\nVocê não é idoso(a).")
+			
+		}
+	}
+}
