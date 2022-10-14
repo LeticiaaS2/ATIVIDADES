@@ -1,0 +1,35 @@
+programa
+{
+	funcao inicio ()
+	{
+	/*
+        LETICIA PEREIRA ALVES DA CRUZ
+	7. Crie um algoritmo que solicite três números inteiros ao usuário.
+	Calcule o quadrado de cada um dos números informados e caso o resultado
+    do quadrado do terceiro número lido for maior ou igual a
+    1000, imprima seu valor na tela. Caso contrário, apenas imprima
+    uma mensagem dizendo “Eu amo o IFSertãoPE campus Salgueiro <3”.
+	*/
+	
+	real n1,n2,n3,qn1,qn2,qn3
+		
+	escreva("Informe o primeiro número: ")
+	leia(n1)
+	escreva("Informe o segundo número: ")
+	leia(n2)
+	escreva("Informe o terceiro número: ")
+	leia(n3)	
+		
+		
+	qn1=n1*n1
+	qn2=n2*n2
+	qn3=n3*n3
+	
+	se(qn3>=1000){
+		escreva(qn3)
+		
+	}senao{
+		escreva("Eu amo o IFSertãoPE campus Salgueiro <3")
+	}
+}
+}
