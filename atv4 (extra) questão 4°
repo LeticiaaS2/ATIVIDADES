@@ -1,0 +1,27 @@
+programa
+{
+	
+	funcao inicio()
+	{
+  /*
+  LETICIA PEREIRA E CAMILA BRINGEL
+  */
+		real sfixo,vvendas,stotal,comissao
+
+		escreva("Informe o salário fixo: ")
+		leia(sfixo)
+		escreva("Informe o valor de vendas: ")
+		leia(vvendas)
+
+		se(vvendas<=2000){
+			comissao=vvendas*0.04
+			stotal=sfixo+comissao
+			escreva("O salário total é R$"+stotal)
+			
+		}senao{
+			comissao=vvendas*0.05
+			stotal=sfixo+comissao
+			escreva("O salário total é R$"+stotal)
+		}
+	}
+}
