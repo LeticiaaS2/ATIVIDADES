@@ -1,0 +1,38 @@
+programa
+{
+	
+	funcao inicio()
+	{
+  /*
+  LETICIA PEREIRA E CAMILA BRINGEL
+  */
+  
+		cadeia n, sx
+		real al
+		inteiro id
+
+		escreva("Qual o seu nome? ")
+		leia(n)
+		escreva("Qual o seu sexo? ")
+		leia(sx)
+
+		se ((sx == "masculino")ou(sx == "Masculino")){
+			escreva ("Informe a sua idade: ")
+			leia(id)
+
+		se(id>18){
+			escreva ("Informe sua altura: ")
+			leia(al)
+
+		se(al>1.60){
+			escreva ("Apto ao serviço militar")
+
+		}
+		}
+		}senao{
+			escreva("Não está apto aoserviço militar")
+		}
+		
+		
+	}
+}
