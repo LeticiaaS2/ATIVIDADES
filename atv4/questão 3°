@@ -4,6 +4,7 @@ programa
 	{
   /* 
   LETICIA PEREIRA E PEDRO HENRIQUE
+  
   3. Crie um algoritmo em portugol que leia o sexo e a idade de 30 pessoas. Ao final, informe a quantidade de
 homens e mulheres lidas.
   */
