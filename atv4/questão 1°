@@ -4,10 +4,12 @@ programa
 	funcao inicio()
 	{
 		/*
-		 1. Crie um algoritmo que leia a idade de 50 mulheres. 
-		 Verifique e imprima na tela o nome e a idade da mulher mais velha. 
-		 Considere que serão informados apenas valores positivos.
-          */
+		LETICIA PEREIRA E PEDRO HENRIQUE
+		
+		1. Crie um algoritmo que leia a idade de 50 mulheres. 
+		Verifique e imprima na tela o nome e a idade da mulher mais velha. 
+		Considere que serão informados apenas valores positivos.
+          	*/
 
 		cadeia nome = "", nomeMaisV = ""
 		inteiro idade = 1, idadeMaisV = 0
