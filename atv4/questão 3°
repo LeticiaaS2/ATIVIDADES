@@ -1,0 +1,34 @@
+programa
+{
+	funcao inicio ()
+	{
+  /* 
+  LETICIA PEREIRA E PEDRO HENRIQUE
+  3. Crie um algoritmo em portugol que leia o sexo e a idade de 30 pessoas. Ao final, informe a quantidade de
+homens e mulheres lidas.
+  */
+
+	inteiro idade, qntM=0, qntH=0
+	cadeia sexo
+
+    para(inteiro i=0; i<4; i++){
+    	escreva("\nInforme a idade: ")
+		leia(idade)
+		escreva("Informe o sexo: ")
+		leia(sexo)
+		
+	se(sexo=="Feminino"){
+			qntM=qntM+1
+
+		}senao se(sexo=="Masculino"){
+			qntH=qntH+1
+
+		}senao{
+			escreva("O sexo inserido é inválido, use Feminino ou Masculino")
+		}		
+    }
+	escreva ("\nA quantidade de mulheres inseridas é igual à "+qntM)
+	escreva ("\nA quantidade de homens inserida é igual à "+qntH+"\n")
+  
+}
+}
