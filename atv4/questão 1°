@@ -1,0 +1,30 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		/*
+		 1. Crie um algoritmo que leia a idade de 50 mulheres. 
+		 Verifique e imprima na tela o nome e a idade da mulher mais velha. 
+		 Considere que serão informados apenas valores positivos.
+          */
+
+		cadeia nome = "", nomeMaisV = ""
+		inteiro idade = 1, idadeMaisV = 0
+
+			para(inteiro i = 1; i <= 3; i++){
+				escreva("Informe o nome: ")
+				leia(nome)
+				escreva("Informe a idade: ")
+				leia(idade)
+				
+				se(idade>idadeMaisV){
+					idadeMaisV = idade
+					nomeMaisV = nome
+				}
+	}
+			escreva("Nome da mais velha: "+nomeMaisV)
+			escreva("\nIdade da mais velha: "+idadeMaisV)
+			
+}
+}
