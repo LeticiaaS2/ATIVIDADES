@@ -12,7 +12,7 @@ programa
 		cadeia nome = "", nomeMaisV = ""
 		inteiro idade = 1, idadeMaisV = 0
 
-			para(inteiro i = 1; i <= 3; i++){
+			para(inteiro i = 1; i <= 50; i++){
 				escreva("Informe o nome: ")
 				leia(nome)
 				escreva("Informe a idade: ")
