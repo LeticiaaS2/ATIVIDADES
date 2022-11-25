@@ -1,0 +1,39 @@
+programa
+{
+	funcao inicio ()
+	{
+	/*
+	LETICIA PEREIRA E PEDRO HENRIQUE
+	
+	10. Crie um algoritmo que leia dois números 
+	e calcule e imprima na tela o resultado da divisão
+    do primeiro pelo segundo. Como é impossível dividir por zero,
+	caso o segundo valor seja igual a zero, solicite novamente
+    os números.
+	*/
+	
+	inteiro n1, n2, dvsao
+   
+    escreva("Informe um número: ")
+	leia(n1)
+	escreva("Informe outro número: ")
+	leia(n2)
+	
+	se(n2!=0){
+		dvsao=n1/n2
+        escreva("A divisão do primeiro número pelo segundo é "+dvsao)
+		
+	}senao{
+		faca{
+	escreva("Os números inseridos são inválidos, informe novamente")
+	escreva("\nInforme um número: ")
+	leia(n1)
+	escreva("Informe outro número: ")
+	leia(n2)
+    }
+    enquanto(n2==0)
+	dvsao=n1/n2
+	escreva ("A divisão do primeiro número pelo segundo é "+dvsao)
+}
+}
+}
