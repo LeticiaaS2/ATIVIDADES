@@ -1,0 +1,46 @@
+programa 
+{
+  funcao inicio() 
+  {/*
+  LETICIA PEREIRA E PEDRO HENRIQUE
+
+  6. Crie um algoritmo computacional que leia as informações de N pessoas (nome, sexo, idade) e a cada
+  repetição informe se esta pessoa está apta ou não ao serviço militar. No final do programa, imprima quantas
+  pessoas foram aptas e quantas inaptas.
+  */
+
+  inteiro idade, aptQ=0, inaptQ=0
+  cadeia nome
+  caracter sexo
+
+escreva("Digite 'Parar' quando quiser encerrar o programa")
+  faca{
+    escreva("\nInforme o nome: ")
+    leia(nome)
+    se(nome!="Parar"){
+    escreva("Informe idade: ")
+    leia(idade)
+    escreva("Informe sexo, M ou F: ")
+    leia(sexo)
+  
+  se(idade>=18){
+    se((sexo=='M')ou(sexo=='m')){
+      escreva(nome," está apto ao serviço militar\n")
+      aptQ=aptQ+1}
+
+  senao{
+      escreva(nome," não está apta ao serviço militar\n")
+      inaptQ=inaptQ+1}
+  }
+  senao{
+    escreva(nome," não está apto(a) ao serviço militar\n")
+    inaptQ=inaptQ+1}
+
+  }
+  }
+  enquanto(nome!="Parar")
+  escreva("Parando o programa...")
+  escreva("\nQuantidade de pessoas aptas inseridas: ",aptQ)
+  escreva("\nQuantidade de pessoas inaptas inseridas: ",inaptQ)
+}
+}
