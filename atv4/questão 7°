@@ -1,0 +1,28 @@
+programa
+{
+  funcao inicio() 
+  {/*
+  LETICIA PEREIRA E PEDRO HENRIQUE
+
+  7. Crie um algoritmo que leia uma quantidade indeterminada de números, e o imprima na tela caso este seja
+  maior que 30 e menor que 50. Ao final, imprima quantos números atenderam a essa condição.
+  */
+
+  cadeia n
+  inteiro cond=0
+
+  escreva("Escreva 'Parar' quando quiser encerrar o programa")
+  faca{
+    escreva("\nInforme um número: ")
+    leia(n)
+
+  se((n>30)e(n<50)){
+    cond=cond+1
+    se((n>30)e(n<50)){
+      (escreva("Imprimindo número na tela: ",n,"\n")
+  }
+  }
+  }enquanto(n!="Parar")
+  escreva("Quantidade de números inseridos maiores que 30 e menores que 50: ",cond)
+}
+}
