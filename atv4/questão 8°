@@ -1,0 +1,53 @@
+programa
+{
+	funcao inicio ()
+	{
+	/*
+	8. Crie um algoritmo que leia o nome e a idade de “n” jogadores
+ e imprima a categoria a qual pertence, de
+acordo com a classificação abaixo.
+• Infantil A = 5 - 7 anos
+• Infantil B = 8 - 10 anos
+• juvenil A = 11- 13 anos
+• juvenil B = 14 - 17 anos
+• Sênior = 18 - 25 ano	
+*/
+
+inteiro idade=0, i=0
+cadeia nome=""
+
+escreva("Digite 'Sair' quando quiser encerrar o programa\n")
+faca{
+	
+	escreva("\nInforme o nome: ")
+	leia(nome)
+	se(nome!="Sair"){
+	escreva("Informe a idade: ")
+	leia(idade)
+
+		se(nome!="Sair" e(idade>=5)e(idade<=7)){
+		escreva(nome+" pertence ao Infantil A\n")
+		
+	}senao se(nome!="Sair" e(idade>=8)e(idade<=10)){
+		escreva(nome+" pertence ao Infantil B\n")
+		
+	}senao se(nome!="Sair" e(idade>=11)e(idade<=13)){
+		escreva(nome+" pertence ao Junevil A\n")
+		
+	}senao se(nome!="Sair" e(idade>=14)e(idade<=17)){
+		escreva(nome+" pertence ao Juvenil B\n")
+		
+	}senao se(nome!="Sair" e(idade>=18)e(idade<=25)){
+		escreva(nome+" pertence ao Sênior\n")
+		
+	}senao{
+		escreva(nome+" não pertence à nenhuma classificação\n")
+	
+	}
+}
+}
+enquanto (nome!="Sair")
+escreva("Saindo do programa...")
+
+	}
+}
