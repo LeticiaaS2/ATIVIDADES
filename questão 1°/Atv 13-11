@@ -1,0 +1,26 @@
+programa
+{
+	
+	funcao inicio()
+	{
+  /*
+  LETICIA PEREIRA E CAMILA BRINGEL
+  */
+		inteiro n[3], mult[3], result[3]
+
+		para(inteiro i=0; i<3; i++){
+			escreva("Informe o primeiro número: ")
+			leia(n[i])}
+
+			escreva("\n")
+		para(inteiro i=0; i<3; i++){
+			escreva("Informe o segundo número: ")
+			leia(mult[i])}
+
+		para(inteiro i=0; i<3; i++){
+		result[i]=n[i]*mult[i]
+		escreva("\nResultado: "+result[i])
+			
+		}
+	}
+}
