@@ -1,0 +1,25 @@
+programa
+{
+	
+	funcao inicio()
+	{
+  /*
+  LETICIA PEREIRA E CAMILA BRINGEL
+  */
+	      inteiro numeros [20], n = 0, soma = 0
+	      
+		 para(inteiro i=0; i < 20; i++){
+		 	escreva("Informe um numero:")
+		 	leia (numeros[i])}
+	
+		escreva ("Informe outro numero:")
+		leia(n)
+
+		para(inteiro i=0; i<20; i++){
+		se ( n == numeros[i]){
+		soma= soma++
+		}}
+		
+		escreva ("Esse numero esta presente ",soma, " vezes")
+	}
+}
