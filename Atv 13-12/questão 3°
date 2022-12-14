@@ -1,0 +1,38 @@
+programa
+{
+	funcao inicio ()
+	{
+	/*
+        LETICIA PEREIRA E CAMILA BRINGEL 
+	Menor, Maior, Media, Meses inferior a media, Inferior a 20
+    */
+		
+	inteiro n=1,mes[12], mn, mr, media, soma=0, mi=0, mi20=0
+	
+	para(inteiro i=0; i<12; i++){
+		escreva("Informe a média de temperatura do mês ",n++,": ")
+		leia(mes[i])
+		
+		soma=soma+mes[i]
+		media=soma/12
+		
+	se(mes[i]<mn){
+		mn=mes[i]
+	}
+	se(mes[i]>mr){
+		mr=mes[i]
+	}	
+	se(mes[i]<media){
+		mi=mi+1
+	}
+	se(mes[i]<20){
+	    mi20=mi20+1
+	}
+	}	
+	escreva("\nMenor temperatura: "+mn)
+	escreva("\nMaior temperatura: "+mr)
+	escreva("\nMedia anual: "+media)
+	escreva("\nNúmero de meses com a temperatura inferior à média: "+mi)
+	escreva("\nMédias inferiores à 20: "+mi20)
+	}
+}
