@@ -5,18 +5,18 @@ programa
         /*
         LETICIA PEREIRA E CAMILA BRINGEL
         */
-	inteiro num1[5], num2[5], vezes=0
+	inteiro num1[15], num2[15], vezes=0
 	
-	para(inteiro i=0; i<5; i++){
+	para(inteiro i=0; i<15; i++){
 	 escreva("Informe um número: ")
 	 leia(num1[i])}
 	
 	escreva("\n")
-	para(inteiro i=0; i<5; i++){ 
+	para(inteiro i=0; i<15; i++){ 
    	 escreva("Informe outro número: ")
    	 leia(num2[i])}
    
-    para (inteiro i=0; i<5; i++){
+    para (inteiro i=0; i<15; i++){
      se(num1[i]==num2[i]){
    	 vezes=vezes+1
      }}
