@@ -1,0 +1,37 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		/*
+		 * LETICIA PEREIRA, FILIPE, PEDRO HENRIQUE
+		 * 2. Crie um algoritmo que leia uma matriz 6X5 de números reais. Depois, solicite ao usuario, 
+		 * um número referente a uma linha e outro referente a uma coluna e imprima o valor armazenado 
+		 * nessa posicao na matriz.
+		 */
+
+		 real matriz[3][3]
+
+		 para(inteiro i=0; i<3; i++){
+		 	para(inteiro j=0; j<3; j++){
+		 		escreva("Informe o valor da posição ["+i+"]["+j+"]: ")
+				leia(matriz[i][j])
+				
+		 	}
+		 }
+		 	
+		 para(inteiro i=0; i<3; i++){
+		 	para(inteiro j=0; j<3; j++){
+		 		escreva("\n")
+		 		escreva("\nInforme o valor da linha: ")
+		 		leia(i)
+		 		escreva("Informe o valor da coluna: ")
+		 		leia(j)
+		 		escreva("Resultado: "+matriz[i][j])
+		 	}
+	}
+	
+}
+	}
+
+
