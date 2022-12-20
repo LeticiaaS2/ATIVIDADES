@@ -9,24 +9,24 @@ programa
 		 * correspondam ao cubo do elemento correspondente na matriz original. 
 		 */
 
-		 inteiro matriz[3][3]
+		 inteiro matriz[6][6]
 
-		 para(inteiro i=0; i<3; i++){
-		 	para(inteiro j=0; j<3; j++){
+		 para(inteiro i=0; i<6; i++){
+		 	para(inteiro j=0; j<6; j++){
 		 		escreva("Informe o valor da posição ["+i+"]["+j+"]: ")
 				leia(matriz[i][j])
 		 	}
 		 }
 		 
-		  para(inteiro i=0; i<3; i++){
-		 	para(inteiro j=0; j<3; j++){
+		  para(inteiro i=0; i<6; i++){
+		 	para(inteiro j=0; j<6; j++){
 		 		escreva("["+matriz[i][j]+"] ")		 		
 		 	}escreva("\n")
 		  }
 		  
 		 escreva("----------------------------------\n")
-		 para(inteiro i=0; i<3; i++){
-		 	para(inteiro j=0; j<3; j++){
+		 para(inteiro i=0; i<6; i++){
+		 	para(inteiro j=0; j<6; j++){
 		 		matriz[i][j]=matriz[i][j]*matriz[i][j]*matriz[i][j]
 		 		escreva("["+matriz[i][j]+"] ")
 		 		
