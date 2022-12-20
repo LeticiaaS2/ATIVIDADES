@@ -1,0 +1,35 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		/*
+		 * LETICIA  PEREIRA, FILIPE, PEDRO HENRIQUE
+		 * 4. Crie um algoritmo que insira os elementos em uma matriz 4x4 e calcul
+		 * e a soma do elementos da sua diagonal principal. Impri
+		 * ma também os elementos dos 4 cantos da matriz.
+		 */
+
+		 inteiro matriz[4][4], soma=0
+
+		 para(inteiro i=0; i<4; i++){
+		 	para(inteiro j=0; j<4; j++){
+		 		escreva("Informe o valor da posição ["+i+"]["+j+"]: ")
+				leia(matriz[i][j])
+				se(i==j){
+					soma=soma+(matriz[i][j])
+				}
+		 	}
+		 }
+		 escreva("---------------------------\n")
+		 para(inteiro i=0; i<4; i++){
+		 	para(inteiro j=0; j<4; j++){
+		 		escreva("["+matriz[i][j]+"] ")		 		
+		 	}escreva("\n")
+		 	
+	}
+	escreva("---------------------------\n")
+	escreva("A soma da diagonal é: "+soma+"\n")
+	escreva("Cantos: "+matriz[0][0]+", "+matriz[0][3]+", "+matriz[3][0]+", "+matriz[3][3])
+}
+}
