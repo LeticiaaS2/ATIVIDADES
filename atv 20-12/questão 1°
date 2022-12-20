@@ -1,0 +1,29 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		/*
+		 * LETICIA PEREIRA, FILIPE, PEDRO HENRIQUE
+		 * 1.  Crie um algoritmo que implementa uma matriz 5X7 onde cada um dos elementos 
+		 * presentes nela corresponde à soma dos índices relativos à sua posição na matriz;
+		 */
+
+		 inteiro matriz[5][7], soma=0
+
+		 para(inteiro i=0; i<5; i++){
+		 	para(inteiro j=0 ; j<7; j++){
+		 		matriz[i][j]=i+j
+		 		soma=soma+(matriz[i][j])
+		 	}
+		 }
+		 para(inteiro i=0; i<5; i++){
+			para(inteiro j=0; j<7; j++){
+			escreva("["+matriz[i][j]+"] ")
+			
+			}
+			escreva("\n")
+	}
+
+}
+}
