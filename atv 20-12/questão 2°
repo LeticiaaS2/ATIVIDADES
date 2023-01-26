@@ -10,18 +10,18 @@ programa
 		 * nessa posicao na matriz.
 		 */
 
-		 real matriz[3][3]
+		 real matriz[6][5]
 
-		 para(inteiro i=0; i<3; i++){
-		 	para(inteiro j=0; j<3; j++){
+		 para(inteiro i=0; i<6; i++){
+		 	para(inteiro j=0; j<5; j++){
 		 		escreva("Informe o valor da posição ["+i+"]["+j+"]: ")
 				leia(matriz[i][j])
 				
 		 	}
 		 }
 		 	
-		 para(inteiro i=0; i<3; i++){
-		 	para(inteiro j=0; j<3; j++){
+		 para(inteiro i=0; i<6; i++){
+		 	para(inteiro j=0; j<5; j++){
 		 		escreva("\n")
 		 		escreva("\nInforme o valor da linha: ")
 		 		leia(i)
