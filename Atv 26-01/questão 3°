@@ -1,0 +1,17 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		//LETICIA PEREIRA E CAMILA BRINGEL
+		
+		inteiro v[100]
+
+			para(inteiro i=0;i<100;i++){
+				se(i%2==0){
+					v[i]=i
+					escreva(v[i]+" | ")
+				}
+			}
+	}
+}
